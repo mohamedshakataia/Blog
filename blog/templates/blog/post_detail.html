@@ -1,0 +1,14 @@
+<h2>welcome detial_post page</h2>
+<hr>
+
+
+
+<a href="{% url 'blog:edit' post.id %}">EDITPOST</a>
+<a href="{% url 'blog:delete' post.id %}">DELETEPOST</a>
+<hr>
+
+
+<h4>{{post}}</h4>
+
+<hr>
+<a href="{{single_post.deletesposts}}">DELETE POST</a>
